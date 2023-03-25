@@ -1,0 +1,9 @@
+.loader{
+    @apply fixed inset-0 w-full h-full
+     bg-orange-50 flex justify-center items-center z-20;
+}
+
+.loader-element{
+    @apply h-[60px] w-[60px] rounded-full border-4 border-orange-600
+    border-l-orange-200 animate-spin;
+}
