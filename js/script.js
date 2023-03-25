@@ -1,4 +1,5 @@
 // const off loader 
+//suruma loader aune sabai load hunu agadi
 const loader = document.querySelector(".loader");
 window.addEventListener('load',function(){
     loader.classList.add('hidden');
